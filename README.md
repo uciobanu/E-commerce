@@ -15,8 +15,5 @@
 <h2>Bugs And Issues</h2>
 Contributions are highly valued! Feel free to report any bugs or propose improvements by opening an issue or submitting a pull request. 😊
 
-
-![Screenshot of the application](![image](https://github.com/uciobanu/E-commerce-project/assets/170607857/0d73fa64-d9ee-4088-9f95-158e409a75b1)
-)
-
+<img src=”(https://cdn.dribbble.com/userupload/14726757/file/original-7c6f0cabb5b30aea9ccc5b8eb566af49.png?resize=1504x829)”>
 
