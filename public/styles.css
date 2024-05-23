@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.categories,
+.products,
+.cartContents {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.categories {
+    text-align: left;
+    width: 20%;
+    border-right: 1px solid gray;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories li {
+    margin-bottom: 10px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    border-right: 1px solid gray;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: navy;
+}
+
+.cartContents {
+    text-align: left;
+    width: 20%;
+}
+
+.cartContents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
